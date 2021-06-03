@@ -153,9 +153,6 @@ class _HomeState extends State<Home> {
                       playerTwo = random.nextInt(3);
                     });
                     winner(); //since checking result thats y outside setstate
-                    if (scoreOne == 3 || scoreTwo == 3) {
-                      showDialog();
-                    }
                   },
                   label: Text(
                     'Play',
@@ -205,6 +202,7 @@ class _HomeState extends State<Home> {
   }
 }
 
+// ignore: must_be_immutable
 class Imagess extends StatelessWidget {
   final Map<int, String> img = {
     0: "assets/images/Stone.png",
