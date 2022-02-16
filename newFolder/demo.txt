@@ -1,0 +1,2 @@
+total 0
+-rw-r--r-- 1 NIRMALA 197121 0 Feb 16 15:52 demo.txt
